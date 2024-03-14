@@ -1,3 +1,64 @@
-*{
-    
+@import './fonts.css';
+
+:root {
+    --white: #fff;
+    --light-gray: #eeeeee;
+    --primary: #ff6336;
+    --primary-bg: #ff9c7d;
+    --yellow-bg: #fff8e4;
+    --black: #000000;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font: inherit;
+    color: inherit;
+}
+
+body{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Graphik';
+    line-height: 150%;
+}
+.conteiner{
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+h1,h2,h3,h4,h5,h6, button{
+    font-weight: 600;
+}
+h1{
+    font-size: 65px;
+    line-height: 70px;
+}
+
+.btn{
+    background: var(--white);
+    color: var(--black);
+    border: 1px solid  rgba(0,0,0,0.5);
+}
+
+.btn.primary{
+    background: var(--primary);
+    color: var(--white);
+    border: 1px solid  var(--primary);
+}
+
+.btn.secondary{
+    background: var(--black);
+    color: var(--white);
+    border: 1px solid  var(--);
+}
+
+
+
+
+
+
