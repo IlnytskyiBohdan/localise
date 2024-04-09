@@ -161,7 +161,7 @@ header .btn-group{
 }
 
 #product .lc{
-    width: calc(49% + 8px);
+    width: 41%;
 
 }
 
@@ -171,7 +171,7 @@ header .btn-group{
 }
 
 #product .rc{
-    width: 49%;
+    width: 58%;
     min-height: 300px;
     margin: 0 auto;
     position: relative;
@@ -181,7 +181,7 @@ header .btn-group{
 
 #product img{
     right: 0;
-    width: 117%;
+    width: 101%;
     height: auto;
     padding-top: 10px;
     position: absolute;
@@ -356,28 +356,25 @@ header .btn-group{
     font-size: 30px;
     line-height: 40px;
     text-align: left;
-    margin-bottom: 200px;
+    margin-bottom: 179px;
 
 }
 
 #resources .flex{
     display: flex;
     justify-content: space-between; 
-    align-items: center;
     flex-wrap: wrap;
+    max-width: 1280px;
 }
 
 #resources h2{
-    padding-bottom: 70px;
+    padding-bottom: 74px;
 }
 
 #resources .flex-item{
     max-width: 400px;  
 }
 
-#resources img{
-    padding-bottom: 40px;
-}
 
 #resources p{
 font-size: 20px;
@@ -392,6 +389,22 @@ text-align: left;
 #resources h3{
     padding-bottom: 33px;
 }
+
+
+.resources-img{
+    height: 220px;
+    margin-bottom: 31px;
+}
+
+.corect-1{
+    padding-top: 17px;
+}
+
+.corect-2{
+    padding-top: 9px;
+}
+
+
 
 /* revolut */
 
@@ -589,6 +602,7 @@ padding-bottom: 25px;
     padding-bottom: 76px;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 99.8%;
 }
 
 #case svg{
@@ -621,16 +635,15 @@ padding: 11px 0px 15px 0;
 } 
 
 #case .case-rc{
-    width: 850px;
+    width: 846px;
     justify-content: space-between;
     padding-top: 4px;
     flex-wrap: wrap;
 }
 
 #case ul{
-    max-width: 184px;
+    width: 184px;
     height: 260px;
-    gap: 10px;
 
 }
 
@@ -641,7 +654,7 @@ padding: 11px 0px 15px 0;
 }
 
 #case h3{
-    padding-bottom: 21px;
+    padding-bottom: 18px;
 }
 
 
@@ -653,7 +666,7 @@ footer{
 
 .footer{
     justify-content: space-between;
-    padding: 50px 20px 48px 20px;
+    padding: 45px 20px 48px 20px;
     flex-wrap: wrap;
 }
 
@@ -672,7 +685,17 @@ footer{
 
 .footer-lc{
     flex-wrap: wrap;
+    padding-top: 7px;
 }
+.footer-rc{
+    padding-top: 2px;
+    padding-right: 3px;
+}
+
+@media (min-width: 1023px;){
+
+}
+    
 
 
 
