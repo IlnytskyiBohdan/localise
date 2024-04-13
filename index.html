@@ -5,23 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lokalise</title>
     <link rel="stylesheet" href="./css/main.css" />
+
+    <meta property="og:locale" content="usa_USA" />
+    <meta property="og:title" content="lokalise" />
+    <meta
+      property="og:description"
+      content="A localization and translation management platform for agile
+    teams. Embrace automation, workflow transparency, and fast
+    project delivery."
+    />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:url"
+      content="https://ilnytskyibohdan.github.io/localise/"
+    />
   </head>
   <body>
     <header>
       <div class="conteiner">
-        <div class="flex header-content">
+        <div class="mobile-burger">
           <div class="logo">
             <svg>
               <use href="./img/sprite.svg#Logo" />
             </svg>
           </div>
-          <nav>
+          <input class="checkbox" type="checkbox" name="" id="" />
+          <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+
+          <nav class="navbar">
+            <a href="#Product">Product</a>
+            <a href="#Features">Features</a>
+            <a href="#Pricing">Pricing</a>
+            <a href="#Case-studies">Case studies</a>
+            <a href="#Resources">Resources</a>
+            <div class="btn-group-mobile">
+              <button class="btn">Log in</button>
+              <button class="btn primary">Try it free</button>
+            </div>
+          </nav>
+        </div>
+
+        <div class="flex header-content desktop">
+          <div class="logo">
+            <svg>
+              <use href="./img/sprite.svg#Logo" />
+            </svg>
+          </div>
+          <nav class="navbar">
             <a href="#Product">Product</a>
             <a href="#Features">Features</a>
             <a href="#Pricing">Pricing</a>
             <a href="#Case-studies">Case studies</a>
             <a href="#Resources">Resources</a>
           </nav>
+
           <div class="flex btn-group">
             <button class="btn">Log in</button>
             <button class="btn primary">Try it free</button>
@@ -29,6 +70,7 @@
         </div>
       </div>
     </header>
+
     <main>
       <section id="product">
         <div class="conteiner">
