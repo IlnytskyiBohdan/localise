@@ -244,15 +244,6 @@ header .btn-group{
     flex-wrap: wrap;
 }
 
-
-@media (max-width: 1024px){
-    
-
-}
-
-
-
-
 /* pricing */
 
 #pricing{
@@ -315,9 +306,29 @@ header .btn-group{
     padding-top: 30px;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1329px){
     #pricing .secondary .lc{
     padding-left: 0;}
+
+    #pricing .secondary .rc{
+        order: 1;
+    }
+    #pricing .flex {
+    justify-content: center;}
+
+    #pricing p {
+        margin: 0 auto;}
+
+    #pricing h3 {
+        margin: 0 auto;}
+
+     #pricing .lc {
+        text-align: center;}
+
+     #pricing .flex:not(:last-child) {
+            padding-bottom: 125px;
+        }
+
 }
 
 
@@ -491,8 +502,8 @@ line-height: 25px;
     max-width: 1368px;
     margin: 0 auto;
     padding: 0 20px;
-    
 }
+
 
 #cupcakes .flex{
     flex-wrap: wrap;
@@ -516,7 +527,7 @@ line-height: 25px;
 
 .cupcakes-rc{
     border-left: 2px solid #060101d6;
-    width: 500px;
+    max-width: 500px;
     height: 153px;
     align-items: center;
     justify-content: space-between;
@@ -700,6 +711,7 @@ footer{
     justify-content: space-between;
     padding: 45px 20px 48px 20px;
     flex-wrap: wrap;
+    
 }
 
 .footer-lc p{
@@ -707,6 +719,12 @@ footer{
     line-height: 15px;
     padding-left: 15px;
     max-width: 301px;
+    margin-bottom:  15px;
+}
+
+.footer svg{
+margin-bottom:  15px;
+
 }
 
 .footer-rc p{
@@ -722,6 +740,7 @@ footer{
 .footer-rc{
     padding-top: 2px;
     padding-right: 3px;
+
 }
 
 @media (max-width: 1024px){
@@ -749,7 +768,7 @@ footer{
       height: 26px;
       width: 32px;
       position: absolute;
-      top: 17px;
+      top: 27px;
       right: 20px;
       z-index: 2;
       display: flex;
@@ -866,7 +885,7 @@ footer{
     max-width: 1000px;
     }    
     #product .lc {
-    width: 90%;
+    width: 100%;
     text-align: center;   
     }    
     #features h2{
@@ -877,10 +896,6 @@ footer{
     font-size: 43px;
     line-height: 60px;
      }
-            
-     #cupcakes .flex {
-    justify-content: center;
-    }
 
     #pricing h3 {
         font-size: 43px;
@@ -896,7 +911,7 @@ footer{
     }
 
     #pricing .flex:not(:last-child){
-        padding-bottom: 125px ;
+        padding-bottom: 80px ;
     }
 
 
@@ -940,8 +955,27 @@ footer{
     padding-left: 0px;
 }
 
+
+#cupcakes .flex {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    
+
+}
+
+.cupcakes-rc {
+    border-top: 2px solid #060101d6;
+    border-left: none;
+    padding-top: 20px;
+}
+
+#cupcakes h2{
+    margin: 0 auto;
+}
+
 #cupcakes {
-    padding-top: 45px;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
@@ -969,6 +1003,8 @@ footer{
  #case .content {
     justify-content: center;
 }
+#case .case-rc {
+    justify-content: center;}
 
 #case{
     padding-top: 45px;
@@ -978,24 +1014,44 @@ footer{
     padding-bottom: 25px;
 }
 
+#case-studies .flex {
+    justify-content: center;}
+
     }
     
     @media (max-width: 624px){
     #product .rc {
-    width: 80%;}
+    width: 100%;}
 
     header nav a {
         font-size: 40px;
         line-height: 62px;}
+
+        .footer-lc p{
+            text-align: center;
+        }
+        
+        .footer-rc{
+            text-align: center;
+            padding-left: 74px;
+        }
+
+        .footer .flex{
+            flex-direction: column;
+            margin: 0 auto;
+        }
+
+
+        .footer svg{
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
     }
 
-    @media (max-width: 460px){
-        .conteiner-cupcakes {
-            padding-bottom: 165px;}
-    }
 
                 
-    
+
+
 
 
 
